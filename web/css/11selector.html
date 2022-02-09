@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        h1{
+            color:blue;
+        }
+
+        .note{
+            text-decoration: underline;
+        }
+
+        .error{
+            text-decoration: line-through;
+        }
+
+        #head3{
+            font-size: 3em;
+        }
+
+        .note.error{
+            color:red;
+        }
+
+        p.note{
+            font-family: D2Coding, monospace;
+        }
+    </style>
+</head>
+<body>
+    <!-- h1#head$.note*3>lorem3 -->
+    <h1 id="head1" class="note">Lorem, ipsum dolor.</h1>
+    <h1 id="head2" class="note">Enim, exercitationem dolorum!</h1>
+    <h1 id="head3" class="note">Unde, cumque nobis.</h1>
+
+    <!-- h1#head$@4.error*3>lorem3 -->
+    <h1 id="head4" class="error">Lorem, ipsum dolor.</h1>
+    <h1 id="head5" class="error">Quo, nemo dolores.</h1>
+    <h1 id="head6" class="error">Iste, laborum quos.</h1>
+
+    <!-- h1#head$@7.note.error*2>lorem3 -->
+    <h1 id="head7" class="note error">Lorem, ipsum dolor.</h1>
+    <h1 id="head8" class="note error">Obcaecati, rem ipsa.</h1>
+
+    <!--p.note*2>lorem-->
+    <p class="note">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius magnam explicabo asperiores? Saepe officiis autem sequi laboriosam animi officia sit quae blanditiis fugiat similique optio, repellendus error! Sapiente, delectus assumenda?</p>
+    <p class="note">Odit libero adipisci sit perspiciatis iusto, omnis eum. Ea voluptatem, quibusdam pariatur ex sapiente atque maiores delectus unde molestias minima veritatis vitae dolor eaque odio molestiae adipisci eius. Optio, eius.</p>
+</body>
+</html>

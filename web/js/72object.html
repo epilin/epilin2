@@ -9,16 +9,31 @@
     </style>
 </head>
 <body>
-    
     <script>
-        let hello = function() {
-            console.log("hello");
+        let a = {
+            name : "john",
+            age : 22,
+            style : {
+                color : "white",
+                weight : 300
+            }
         }
+        console.log(a.name); // "john"
+        console.log(a.age); // 22
+        console.log(a.style.color); // "white"
+        console.log(a.style.weight); // 300
 
-        hello(); // 콘솔에 "hello"가 출력되는 함수 hello를 작성해보세요.
-        hello();
-        console.log("java");
-        hello();
+        a.name = "doe";
+        a.age = 33;
+        a.style.colkr = "black";
+        a.style.weight = 700;
+
+        // weight를 700으로 변경
+        console.log(a.name); // "doe"
+        console.log(a.age); // 33
+        console.log(a.style.colkr); // "black"
+        console.log(a.style.weight); // 700
+
 
     </script>
 
